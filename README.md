@@ -15,17 +15,13 @@ Este servidor hecho en C# con el framework de .NET tiene los siguientes requisit
 ### 1. Clonar el repositorio
 
 ---
-
 git clone https://github.com/ebastidasp/dotnet-api.git
-
 ---
 
 ### 2. Restaurar las dependencias
 
 ---
-
 dotnet restore
-
 ---
 
 ### 3. Aplicar migraciones y actualizar la base de datos
@@ -33,25 +29,19 @@ dotnet restore
 Primero se instala el EF CLI con el siguiente comando:
 
 ---
-
 dotnet tool install --global dotnet-ef
-
 ---
 
 Y después se ejecuta el comando para aplicar la migración:
 
 ---
-
 dotnet ef database update
-
 ---
 
 ### 4. Correr la api
 
 ---
-
 dotnet run
-
 ---
 
 ### 5. Probar los endpoints
